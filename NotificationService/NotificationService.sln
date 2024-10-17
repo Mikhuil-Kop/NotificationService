@@ -3,13 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35027.167
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotificationServiceAPI", "NotificationServiceAPI\NotificationServiceAPI.csproj", "{4E0053D0-F513-422E-9E16-17F2340D9F50}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NotificationServiceAPI", "NotificationServiceAPI\NotificationServiceAPI.csproj", "{4E0053D0-F513-422E-9E16-17F2340D9F50}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotificationModelLibrary", "NotificationModelLibrary\NotificationModelLibrary.csproj", "{14F5AFF9-D44F-44EA-9D00-670F7AB80456}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NotificationModelLibrary", "NotificationModelLibrary\NotificationModelLibrary.csproj", "{14F5AFF9-D44F-44EA-9D00-670F7AB80456}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotificationCommonLibrary", "NotificationCommonLibrary\NotificationCommonLibrary.csproj", "{F1EEC63F-3898-4C81-A767-4A0681F916C8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NotificationCommonLibrary", "NotificationCommonLibrary\NotificationCommonLibrary.csproj", "{F1EEC63F-3898-4C81-A767-4A0681F916C8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotificationTestProject", "NotificationTestProject\NotificationTestProject.csproj", "{878A10A9-DD3E-466D-9ABD-92F50F17DD5A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NotificationTestProject", "NotificationTestProject\NotificationTestProject.csproj", "{878A10A9-DD3E-466D-9ABD-92F50F17DD5A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspNetCommonLibrary", "AspNetCommonLibrary\AspNetCommonLibrary.csproj", "{E7F56786-229F-41E1-9F51-F5B9B780F991}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabbitLibrary", "RabbitLibrary\RabbitLibrary.csproj", "{DEEC3720-92EB-4D8E-8C84-38BECFED0944}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "External", "External", "{B9ABC6B3-6DA8-4B3A-893D-FBB2C9BC71EC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,9 +39,20 @@ Global
 		{878A10A9-DD3E-466D-9ABD-92F50F17DD5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{878A10A9-DD3E-466D-9ABD-92F50F17DD5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{878A10A9-DD3E-466D-9ABD-92F50F17DD5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7F56786-229F-41E1-9F51-F5B9B780F991}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7F56786-229F-41E1-9F51-F5B9B780F991}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7F56786-229F-41E1-9F51-F5B9B780F991}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7F56786-229F-41E1-9F51-F5B9B780F991}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEEC3720-92EB-4D8E-8C84-38BECFED0944}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEEC3720-92EB-4D8E-8C84-38BECFED0944}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEEC3720-92EB-4D8E-8C84-38BECFED0944}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEEC3720-92EB-4D8E-8C84-38BECFED0944}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DEEC3720-92EB-4D8E-8C84-38BECFED0944} = {B9ABC6B3-6DA8-4B3A-893D-FBB2C9BC71EC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5DB4B4D8-3561-42FA-AED5-3D81DCBDD683}
