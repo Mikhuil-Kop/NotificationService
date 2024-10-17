@@ -1,6 +1,6 @@
 ﻿using NotificationModelLibrary.Events;
 
-namespace NotificationCommonLibrary.Interfaces.Listeners
+namespace NotificationCommonLibrary.Listeners
 {
     public interface IAsyncMessageHandler
     {

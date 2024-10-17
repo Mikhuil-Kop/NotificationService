@@ -1,3 +1,5 @@
+using BackendService.Middlewares;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -15,6 +17,9 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+app.UseMiddleware<ExceptionsMiddleware>();
+app.UseMiddleware<AuthorizationMiddleware>();
 
 app.UseAuthorization();
 
